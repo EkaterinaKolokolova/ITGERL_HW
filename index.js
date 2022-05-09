@@ -8,3 +8,7 @@ function clearInput () {
 }
 let sayHi = () => alert ("Привет, Маша!");
 
+function cangeColor() {
+    let box = document.getElementById('box');
+    box.style.backgroundColor = "red";
+}
